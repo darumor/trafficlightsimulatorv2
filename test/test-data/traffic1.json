@@ -1,0 +1,23 @@
+[
+  {"car_id": "1", "tick": 10, "entry": "entry-id-1", "exit":  "exit-id-2"},
+  {"car_id": "2", "tick": 20, "entry": "entry-id-2", "exit":  "exit-id-1"},
+  {"car_id": "3", "tick": 100, "entry": "entry-id-3", "exit":  "exit-id-1"},
+  {"car_id": "4", "tick": 100, "entry": "entry-id-1", "exit":  "exit-id-3"},
+  {"car_id": "5", "tick": 100, "entry": "entry-id-2", "exit":  "exit-id-1"},
+  {"car_id": "6", "tick": 120, "entry": "entry-id-3", "exit":  "exit-id-1"},
+  {"car_id": "7", "tick": 150, "entry": "entry-id-1", "exit":  "exit-id-2"},
+  {"car_id": "8", "tick": 200, "entry": "entry-id-2", "exit":  "exit-id-1"},
+  {"car_id": "9", "tick": 200, "entry": "entry-id-3", "exit":  "exit-id-2"},
+  {"car_id": "10", "tick": 300, "entry": "entry-id-1", "exit":  "exit-id-3"},
+  {"car_id": "11", "tick": 300, "entry": "entry-id-2", "exit":  "exit-id-1"},
+  {"car_id": "12", "tick": 310, "entry": "entry-id-3", "exit":  "exit-id-1"},
+  {"car_id": "13", "tick": 310, "entry": "entry-id-1", "exit":  "exit-id-2"},
+  {"car_id": "14", "tick": 310, "entry": "entry-id-2", "exit":  "exit-id-3"},
+  {"car_id": "15", "tick": 320, "entry": "entry-id-3", "exit":  "exit-id-1"},
+  {"car_id": "16", "tick": 320, "entry": "entry-id-1", "exit":  "exit-id-2"},
+  {"car_id": "17", "tick": 330, "entry": "entry-id-2", "exit":  "exit-id-3"},
+  {"car_id": "18", "tick": 330, "entry": "entry-id-3", "exit":  "exit-id-2"},
+  {"car_id": "19", "tick": 340, "entry": "entry-id-1", "exit":  "exit-id-2"},
+  {"car_id": "20", "tick": 400, "entry": "entry-id-2", "exit":  "exit-id-1"},
+  {"car_id": "21", "tick": 600, "entry": "entry-id-3", "exit":  "exit-id-2"}
+]

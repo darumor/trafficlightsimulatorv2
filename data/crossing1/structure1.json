@@ -1,0 +1,255 @@
+{
+  "name": "4-way-crossing-1",
+  "nodes": [
+    {
+      "id": "1-a",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": true,
+      "exit": false
+    },
+    {
+      "id": "1-b",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "1-c",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": false,
+      "exit": true
+    },
+    {
+      "id": "1-d",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "2-a",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": true,
+      "exit": false
+    },
+    {
+      "id": "2-b",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "2-c",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": false,
+      "exit": true
+    },
+    {
+      "id": "2-d",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "3-a",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": true,
+      "exit": false
+    },
+    {
+      "id": "3-b",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "3-c",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": false,
+      "exit": true
+    },
+    {
+      "id": "3-d",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "4-a",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": true,
+      "exit": false
+    },
+    {
+      "id": "4-b",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    },
+    {
+      "id": "4-c",
+      "sensor": true,
+      "signalLength": 1,
+      "light": false,
+      "entry": false,
+      "exit": true
+    },
+    {
+      "id": "4-d",
+      "sensor": true,
+      "signalLength": 3,
+      "light": true,
+      "entry": false,
+      "exit": false
+    }
+  ],
+  "arcs": [
+    {
+      "id": "1-2",
+      "start": "1-a",
+      "end": "1-d",
+      "blocks": []
+    },
+    {
+      "id": "1-3",
+      "start": "1-a",
+      "end": "1-b",
+      "blocks": []
+    },
+    {
+      "id": "1-4",
+      "start": "1-b",
+      "end": "1-c",
+      "blocks": ["2-6", "3-7"]
+    },
+    {
+      "id": "1-6",
+      "start": "1-b",
+      "end": "4-c",
+      "blocks": ["2-6", "3-7", "4-7", "2-7", "4-4", "4-6"]
+    },
+    {
+      "id": "1-7",
+      "start": "1-d",
+      "end": "3-c",
+      "blocks": ["2-6", "4-7", "2-7", "4-6", "3-4", "3-6"]
+    },
+    {
+      "id": "2-2",
+      "start": "2-a",
+      "end": "2-d",
+      "blocks": []
+    },
+    {
+      "id": "2-3",
+      "start": "2-2",
+      "end": "2-b",
+      "blocks": []
+    },
+    {
+      "id": "2-4",
+      "start": "2-b",
+      "end": "2-c",
+      "blocks": ["3-6", "4-7"]
+    },
+    {
+      "id": "2-6",
+      "start": "2-b",
+      "end": "1-c",
+      "blocks": ["3-6", "4-7", "1-7", "1-6", "3-7", "1-4"]
+    },
+    {
+      "id": "2-7",
+      "start": "2-d",
+      "end": "4-c",
+      "blocks": ["3-6", "1-7", "3-7", "1-6", "4-6", "4-4"]
+    },
+    {
+      "id": "3-2",
+      "start": "3-a",
+      "end": "3-d",
+      "blocks": []
+    },
+    {
+      "id": "3-3",
+      "start": "3-a",
+      "end": "3-b",
+      "blocks": []
+    },
+    {
+      "id": "3-4",
+      "start": "3-b",
+      "end": "3-c",
+      "blocks": []
+    },
+    {
+      "id": "3-6",
+      "start": "3-b",
+      "end": "2-c",
+      "blocks": ["4-6", "1-7", "2-6", "2-7", "2-4", "4-7"]
+    },
+    {
+      "id": "3-7",
+      "start": "3-d",
+      "end": "1-c",
+      "blocks": ["4-6", "2-7", "4-7", "1-6", "2-6", "1-4"]
+    },
+    {
+      "id": "4-2",
+      "start": "4-a",
+      "end": "4-d",
+      "blocks": []
+    },
+    {
+      "id": "4-3",
+      "start": "4-a",
+      "end": "4-b",
+      "blocks": []
+    },
+    {
+      "id": "4-4",
+      "start": "4-b",
+      "end": "4-c",
+      "blocks": []
+    },
+    {
+      "id": "4-6",
+      "start": "4-b",
+      "end": "3-c",
+      "blocks": ["1-6", "2-7", "3-7", "3-6", "1-7", "3-4"]
+    },
+    {
+      "id": "4-7",
+      "start": "4-d",
+      "end": "2-c",
+      "blocks": ["1-6", "3-7", "1-7", "2-6", "3-6", "2-4"]
+    }
+  ]
+}
